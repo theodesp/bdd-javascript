@@ -6,7 +6,7 @@ to feature test your application.
 
 ## Writing Specifications
 Place your *.feature* files inside the features folder and then run:
-`**npm tests:**` to verify that they pass. I've added an example for you to start with.
+`npm run-script test` to verify that they pass. I've added an example for you to start with.
 
 LICENCE
 ---
