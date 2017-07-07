@@ -1,0 +1,33 @@
+{
+  "name": "bdd-javascript",
+  "version": "1.0.0",
+  "description": "`bdd-javascript`  provides a starter kit for BDD testing your Javascript apps.  We provide an opinionated setup for using [cucumber.js](https://github.com/cucumber/cucumber-js)  to feature test your application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cucumber.js --compiler es6:babel-core/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theodesp/bdd-javascript.git"
+  },
+  "keywords": [
+    "BDD",
+    "TDD",
+    "Ghergkin",
+    "selenium",
+    "cucumber",
+    "es6"
+  ],
+  "author": "Theo Despoudis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/theodesp/bdd-javascript/issues"
+  },
+  "homepage": "https://github.com/theodesp/bdd-javascript#readme",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "chromedriver": "^2.30.1",
+    "cucumber": "^2.3.1",
+    "selenium-webdriver": "^3.4.0"
+  }
+}
